@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "food-truck-explorer",
+  "version": "1.0.0",
+  "description": "StreetEats Explorer: Your Guide to Urban Gastronomy",
+  "scripts": {
+    "init": "npm install && cd client && npm install",
+    "build": "cd client && npm run build",
+    "dev-client": "cd client && npm run start",
+    "dev-server": "node server/index.js",
+    "prod": "node server/index.js"
+  },
+  "author": {
+    "name": "Liutao Sun",
+    "email": "sunliutao@foxmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "commander": "^12.0.0",
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-json": "^2.0.2",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.21",
+    "with-csv": "^2.0.0"
+  }
+}

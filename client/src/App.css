@@ -1,0 +1,6 @@
+body{
+  padding: 1em;
+}
+.leaflet-container{
+  height: 80vh;
+}
